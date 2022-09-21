@@ -19,6 +19,9 @@
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+   <sonar.host.url>http://35.183.7.77:9000/</sonar.host.url>
+   <sonar.login>admin</sonar.login>
+   <sonar.password>admin</sonar.password>           
   </properties>
 
   <modules>
@@ -32,6 +35,17 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+      <repository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <url> http://15.223.6.108:8081/repository/boa-releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <url>http://15.223.6.108:8081/repository/boa-snapshot/</url>
+	    </snapshotRepository>
   </distributionManagement>
 
   <build>
