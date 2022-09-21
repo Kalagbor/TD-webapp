@@ -38,13 +38,13 @@
       <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url> http://15.223.6.108:8081/repository/boa-releases/</url>
+	      <url> http://99.79.57.50:8081/repository/uba-fe-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://15.223.6.108:8081/repository/boa-snapshot/</url>
+	      <url>http://99.79.57.50:8081/repository/uba-fe-snapshot/</url>
 	    </snapshotRepository>
   </distributionManagement>
 
